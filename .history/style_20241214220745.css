@@ -1,6 +1,7 @@
 body{
     background-color: darkslateblue;
 }
+
 .sweet-info{
     display:flex;
     background-color: #fff;
@@ -24,6 +25,5 @@ body{
 .hidden{
     display: none;
 }
-.btn-info:hover{
-    color:red;
-}
+
+.btn-info:ho

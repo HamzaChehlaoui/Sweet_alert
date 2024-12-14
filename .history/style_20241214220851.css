@@ -24,6 +24,7 @@ body{
 .hidden{
     display: none;
 }
+
 .btn-info:hover{
     color:red;
 }
