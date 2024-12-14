@@ -6,7 +6,7 @@
     justify-content: space-between;
     border-radius: 10px;
     border-left: solid 5px rgb(93, 93, 255);
-    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0);
 }
 .img-info{
     width: 30px;
