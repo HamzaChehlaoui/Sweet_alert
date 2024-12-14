@@ -10,7 +10,7 @@ setTimeout( function(){
 
     info.classList.add("hidden");
 
-},6000);
+},5000);
 
 let intervalID = setInterval(function() {
     contore.innerHTML=`${i}`;

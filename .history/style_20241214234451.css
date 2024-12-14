@@ -1,0 +1,30 @@
+
+.sweet-info{
+    display:flex;
+    background-color: #fff;
+    width: 25%;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-left: solid 5px rgb(93, 93, 255);
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.3);
+}
+.img-info{
+    width: 30px;
+    height:30px;
+    display: flex;
+    margin-top: 9px;
+    margin-left: 8px;
+}
+.btn-info{
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+.hidden{
+    display: none;
+}
+.btn-info:hover{
+    color:red;
+}
+contore
