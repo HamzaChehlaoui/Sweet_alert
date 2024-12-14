@@ -27,3 +27,14 @@
 .btn-info:hover{
     color:red;
 }
+.contore{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.sweet-alert{
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+
+}

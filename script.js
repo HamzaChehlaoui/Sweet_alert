@@ -1,7 +1,11 @@
 let info=document.querySelector(".sweet-info");
 let btn_info=document.querySelector(".btn-info");
 let contore=document.querySelector(".contore");
-let i=5;
+let del_hid_info=document.querySelector(".del-hid-info");
+
+  del_hid_info.onclick=function(){
+    info.classList.remove("hidden");
+    let i=5;
 btn_info.onclick=function(){
     info.classList.add("hidden");
 }
@@ -20,4 +24,5 @@ let intervalID = setInterval(function() {
   setTimeout(function() {
     clearInterval(intervalID);
   }, 5000);
-  
+  contore.innerHTML=`6`;
+  }
