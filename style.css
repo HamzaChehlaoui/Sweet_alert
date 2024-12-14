@@ -38,3 +38,10 @@
     left: 40%;
 
 }
+.del-hid-info{
+    background-color: rgb(65, 65, 255);
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+}
