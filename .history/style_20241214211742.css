@@ -1,0 +1,22 @@
+body{
+    background-color: darkslateblue;
+}
+
+.sweet-info{
+    display:flex;
+    background-color: #fff;
+    width: 25%;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.img-info{
+    width: 30px;
+    height:30px;
+    display: flex;
+}
+.btn-info{
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-right: 8px;
+}

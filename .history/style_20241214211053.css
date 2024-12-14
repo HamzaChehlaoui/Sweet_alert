@@ -1,0 +1,9 @@
+BODY
+
+.sweet-info{
+    display:flex;
+}
+.img-info{
+    width: 30px;
+    height:30px;
+}

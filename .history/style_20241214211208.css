@@ -1,0 +1,13 @@
+body{
+    background-color: darkslateblue;
+}
+
+.sweet-info{
+    display:flex;
+    background-color: #fff;
+    
+}
+.img-info{
+    width: 30px;
+    height:30px;
+}
