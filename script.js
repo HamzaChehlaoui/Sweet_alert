@@ -1,15 +1,19 @@
 let info=document.querySelector(".sweet-info");
 let danger=document.querySelector(".sweet-danger");
 let success=document.querySelector(".sweet-success");
+let warning=document.querySelector(".sweet-warning");
 let btn_info=document.querySelector(".btn-info");
 let btn_danger=document.querySelector(".btn-danger");
 let btn_success=document.querySelector(".btn-success");
+let btn_warning=document.querySelector(".btn-warning");
 let contore=document.querySelector(".contore");
 let contore_d=document.querySelector(".contore-d");
 let contore_s=document.querySelector(".contore-s");
+let contore_w=document.querySelector(".contore-w");
 let del_hid_info=document.querySelector(".del-hid-info");
 let del_hid_danger=document.querySelector(".del-hid-danger");
 let del_hid_success=document.querySelector(".del-hid-success");
+let del_hid_warning=document.querySelector(".del-hid-warning");
 
     // function sweet-alert
 
@@ -45,4 +49,8 @@ function sweet(a,b,c){
   // sweet success 
     del_hid_success.addEventListener('click',function(){
       sweet(success,btn_success,contore_s);
+    });
+  // sweet warning 
+    del_hid_warning.addEventListener('click',function(){
+      sweet(warning,btn_warning,contore_w);
     });
