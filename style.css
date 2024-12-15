@@ -86,3 +86,17 @@
     border-radius: 10px;
     color:#fff;
 }
+.sweet-alert-s{
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    left: 58%;
+}
+
+.del-hid-success{
+    background-color: rgb(65, 65, 255);
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+}
