@@ -29,11 +29,11 @@ function sweet(a,b,c){
   c.innerHTML=`6`;
 }
   // sweet info 
-del_hid_info.addEventListener('click',function(){
+del_hid_info.addEventListener('c')function(){
   sweet(info,btn_info,contore);
-});
+};
 
   // sweet danger 
-del_hid_danger.addEventListener('click',function(){
+del_hid_danger.onclick=function(){
   sweet(danger,btn_danger,contore_d);
-});
+}

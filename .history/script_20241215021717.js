@@ -34,6 +34,6 @@ del_hid_info.addEventListener('click',function(){
 });
 
   // sweet danger 
-del_hid_danger.addEventListener('click',function(){
+del_hid_danger.addEventListener=function(){
   sweet(danger,btn_danger,contore_d);
-});
+}

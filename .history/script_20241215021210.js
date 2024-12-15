@@ -25,15 +25,15 @@ function sweet(a,b,c){
   }, 1000);
   setTimeout(function() {
     clearInterval(intervalID);
-  }, 6000);
+  }, 000);
   c.innerHTML=`6`;
 }
   // sweet info 
-del_hid_info.addEventListener('click',function(){
+del_hid_info.onclick=function(){
   sweet(info,btn_info,contore);
-});
+};
 
   // sweet danger 
-del_hid_danger.addEventListener('click',function(){
+del_hid_danger.onclick=function(){
   sweet(danger,btn_danger,contore_d);
-});
+}
